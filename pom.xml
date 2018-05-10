@@ -4,7 +4,7 @@
   <parent>
     <groupId>nl.siepel66.parentpom</groupId>
     <artifactId>parentpom</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
 
   <groupId>nl.siepel66.jenkinstest</groupId>
