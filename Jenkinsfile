@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                gcc test.c -o test 
             }
         }
         stage('Test') {
