@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'gcc test.c -o test' 
+                sh 'mvn clean package' 
             }
         }
         stage('Test') {
